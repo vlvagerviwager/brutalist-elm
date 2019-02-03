@@ -6,7 +6,7 @@ view model =
   div []
     [ p [] [ text "hi." ]
     , p [] [ text "I really like Elm and I am learning it." ]
-    , p [] [ text "We try to hard to be perfect and to make everything look good." ]
+    , p [] [ text "We try too hard to be perfect and to make everything look good." ]
     , p [] [ text "This is going to be a weird, ugly, brutalist site." ]
     , button [ ] [ text "This does nothing." ]
     , p [] []
