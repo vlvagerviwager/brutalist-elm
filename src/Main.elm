@@ -6,7 +6,7 @@ appendYas: String -> String
 appendYas string = string ++ " YASSSSS."
 
 -- VIEW
-view model =
+view =
   node "body" []
     [ header []
       [ img [ src "./src/img/logo.png", width 80, height 80 ] []
@@ -32,4 +32,4 @@ view model =
     ]
 
 main =
-    view "not a model"
+    view

@@ -4421,99 +4421,97 @@ var elm$html$Html$Attributes$width = function (n) {
 		'width',
 		elm$core$String$fromInt(n));
 };
-var author$project$Main$view = function (model) {
-	return A3(
-		elm$html$Html$node,
-		'body',
-		_List_Nil,
-		_List_fromArray(
-			[
-				A2(
-				elm$html$Html$header,
-				_List_Nil,
-				_List_fromArray(
-					[
-						A2(
-						elm$html$Html$img,
-						_List_fromArray(
-							[
-								elm$html$Html$Attributes$src('./src/img/logo.png'),
-								elm$html$Html$Attributes$width(80),
-								elm$html$Html$Attributes$height(80)
-							]),
-						_List_Nil)
-					])),
-				A2(
-				elm$html$Html$div,
-				_List_Nil,
-				_List_fromArray(
-					[
-						A2(
-						elm$html$Html$p,
-						_List_Nil,
-						_List_fromArray(
-							[
-								elm$html$Html$text('hi.')
-							])),
-						A2(
-						elm$html$Html$p,
-						_List_Nil,
-						_List_fromArray(
-							[
-								elm$html$Html$text(
-								author$project$Main$appendYas('I really like Elm and I am learning it.'))
-							])),
-						A2(
-						elm$html$Html$p,
-						_List_Nil,
-						_List_fromArray(
-							[
-								elm$html$Html$text('We try too hard to be perfect and to make everything look good.')
-							])),
-						A2(
-						elm$html$Html$p,
-						_List_Nil,
-						_List_fromArray(
-							[
-								elm$html$Html$text('This is going to be a weird, ugly, brutalist site.')
-							])),
-						A2(
-						elm$html$Html$p,
-						_List_Nil,
-						_List_fromArray(
-							[
-								elm$html$Html$text('The logo was generated using '),
-								A2(
-								elm$html$Html$a,
-								_List_fromArray(
-									[
-										elm$html$Html$Attributes$href('https://hatchful.shopify.com')
-									]),
-								_List_fromArray(
-									[
-										elm$html$Html$text('Hatchful')
-									])),
-								elm$html$Html$text('.')
-							])),
-						A2(
-						elm$html$Html$button,
-						_List_Nil,
-						_List_fromArray(
-							[
-								elm$html$Html$text('This does nothing.')
-							])),
-						A2(elm$html$Html$p, _List_Nil, _List_Nil)
-					])),
-				A2(
-				elm$html$Html$footer,
-				_List_Nil,
-				_List_fromArray(
-					[
-						elm$html$Html$text('© 2019 zky829')
-					]))
-			]));
-};
-var author$project$Main$main = author$project$Main$view('not a model');
+var author$project$Main$view = A3(
+	elm$html$Html$node,
+	'body',
+	_List_Nil,
+	_List_fromArray(
+		[
+			A2(
+			elm$html$Html$header,
+			_List_Nil,
+			_List_fromArray(
+				[
+					A2(
+					elm$html$Html$img,
+					_List_fromArray(
+						[
+							elm$html$Html$Attributes$src('./src/img/logo.png'),
+							elm$html$Html$Attributes$width(80),
+							elm$html$Html$Attributes$height(80)
+						]),
+					_List_Nil)
+				])),
+			A2(
+			elm$html$Html$div,
+			_List_Nil,
+			_List_fromArray(
+				[
+					A2(
+					elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text('hi.')
+						])),
+					A2(
+					elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text(
+							author$project$Main$appendYas('I really like Elm and I am learning it.'))
+						])),
+					A2(
+					elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text('We try too hard to be perfect and to make everything look good.')
+						])),
+					A2(
+					elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text('This is going to be a weird, ugly, brutalist site.')
+						])),
+					A2(
+					elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text('The logo was generated using '),
+							A2(
+							elm$html$Html$a,
+							_List_fromArray(
+								[
+									elm$html$Html$Attributes$href('https://hatchful.shopify.com')
+								]),
+							_List_fromArray(
+								[
+									elm$html$Html$text('Hatchful')
+								])),
+							elm$html$Html$text('.')
+						])),
+					A2(
+					elm$html$Html$button,
+					_List_Nil,
+					_List_fromArray(
+						[
+							elm$html$Html$text('This does nothing.')
+						])),
+					A2(elm$html$Html$p, _List_Nil, _List_Nil)
+				])),
+			A2(
+			elm$html$Html$footer,
+			_List_Nil,
+			_List_fromArray(
+				[
+					elm$html$Html$text('© 2019 zky829')
+				]))
+		]));
+var author$project$Main$main = author$project$Main$view;
 _Platform_export({'Main':{'init':_VirtualDom_init(author$project$Main$main)(0)(0)}});}(this));
 
 var app = Elm.Main.init({ node: document.getElementById("elm-f0111bc4e658d0f98db96260c16f7e49") });
